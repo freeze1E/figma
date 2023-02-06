@@ -1,0 +1,209 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background: #007765;
+    /*height: 85px;
+    margin: -85px 0px 0px 0px; 
+    background-size: cover;
+    background-position: center center;*/
+    top: 0;
+    padding-bottom: 0px;
+}
+
+.logo {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+ul {
+    float: right;
+    margin-top: 10px;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+ul li {
+    display: inline-block;
+    font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+    
+  }
+
+.link {
+    font-weight: 500;
+    font-size: 24px; 
+    line-height: 28px; 
+    text-decoration: none; 
+    color: #fff;
+}
+
+.firstblock {
+    background-image: url(image.svg);
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin:75px 0px 0px 0px;
+   
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
+    color:#007765;
+    text-align: center;
+}
+
+.secondblock {
+    background: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondblock p {
+    font-size: 32px;
+    color:#000000;
+    text-align:left;
+
+}
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('tblock.svg');
+    background-size: cover;
+    background-position: center center;
+}
+  
+.hero__message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.fourthblock {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fourthblock p {
+    font-size: 32px;
+    color:#000000;
+}
+
+.left {
+    float: left;
+    margin: 0px 50px 0px 10px;
+}
+/*РЕШЕНИЕ БЕЗ ИСПОЛЬЗОВАНИЯ FLEX
+.fiveblock {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.members {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+.member1, .member2, .member3, .member4, .member5, .member6 {
+    margin-bottom: 60px;
+	width: calc(33% - 24px);
+    /*margin-left: 55px;*/
+   /* margin-right: 55px;
+	display: inline-block;
+РЕШЕНИЕ БЕЗ ИСПОЛЬЗОВАНИЯ FLEX
+}*/ 
+
+.fiveblock {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.members {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+.member1, .member2, .member3, .member4, .member5, .member6 {
+    margin-bottom: 60px;
+    flex-basis: 33%;
+}
+.name {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color:#007765;
+   
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+.work {
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0px;
+
+}
+
+footer {
+    background-color: #333333;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 21px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#problem, #coin, #team {
+    border-top: 85px solid transparent;
+    margin-top: -85px;
+    background-clip: padding-box;
+}
